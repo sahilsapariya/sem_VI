@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lab 1</title>
+</head>
+<body>
+    <section>
+    
+        <div class="container">
+            <h1>Simple Calculator</h1>
+
+            <div class="inputs">
+                
+                <input type="number" placeholder="Enter number 1" id="number1">
+                <input type="number" placeholder="Enter number 2" id="number2">
+            </div>
+            
+            <div class="buttons">
+                
+                <button type="button" id="add" onclick="sum()">Add</button>
+                <button type="button" id="sub" onclick="sub()">Substration</button>
+                <button type="button" id="mul" onclick="mul()">Multiplication</button>
+                <button type="button" id="div" onclick="div()">Division</button>
+            </div>
+            
+            <div class="result" id="result">NaN</div>
+        </div>
+            
+        </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
