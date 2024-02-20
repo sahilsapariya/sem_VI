@@ -1,0 +1,11 @@
+.todo_item {
+    margin: 0.5rem;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.subheader {
+    display: flex;
+    justify-content: space-between;
+}
