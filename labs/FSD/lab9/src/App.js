@@ -3,7 +3,7 @@ import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Navbar from "./components/common/Navbar";
-import Footbar from "./components/common/Footbar";
+// import Footbar from "./components/common/Footbar";
 import Projects from "./components/pages/Projects";
 
 const App = () => {
@@ -20,7 +20,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
         </Routes>
 
-        <Footbar />
+        {/* <Footbar /> */}
       </Router>
     </div>
   );
